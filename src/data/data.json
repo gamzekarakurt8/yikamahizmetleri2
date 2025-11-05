@@ -1,0 +1,137 @@
+{
+  "Header": {
+    "title": " Halı ve Koltuk Yıkama Hizmetleri",
+    "paragraph": "Koltuklarınızı ilk günkü temizliğine ve ferahlığına kavuşturuyoruz. Profesyonel ekipmanlarımızla hijyenik, hızlı ve garantili koltuk yıkama hizmeti sunuyoruz."
+  },
+  "About": {
+    "paragraph": "Koltuk yıkama hizmetimiz ile evinizde veya ofisinizdeki koltukları derinlemesine temizliyoruz. Uzman ekibimiz, güçlü buhar ve vakum sistemleriyle kumaşın derinliklerine işleyen kir ve lekeleri yok eder. Amacımız yalnızca koltuklarınızı temizlemek değil, yaşam alanlarınıza ferahlık kazandırmaktır.",
+    "Why": [
+      "Profesyonel ekip ve modern ekipmanlar",
+      "Yerinde veya atölyede hizmet imkânı",
+      "Hızlı kuruma ve anında teslim",
+      "Uygun fiyat garantisi"
+    ],
+    "Why2": [
+      "Tam hijyen için yüksek sıcaklıkla temizlik",
+      "Kumaşa zarar vermeyen özel solüsyonlar",
+      "Müşteri memnuniyeti odaklı hizmet",
+      "7/24 hizmet ve hızlı randevu"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Koltuk Yıkama",
+      "smallImage": "img/portfolio/large.jfif"
+    },
+    {
+      "title": "Yatak Temizliği",
+      "smallImage": "img/portfolio/yatak.jfif"
+    },
+
+    {
+      "title": "Araç Koltuğu Yıkama",
+      "smallImage": "img/portfolio/arackoltuk.jfif"
+    }
+  
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-home",
+      "name": "Ev Koltuğu Yıkama",
+      "text": "Ev koltuklarınızı kumaşına uygun özel solüsyonlarla temizliyor, derinlemesine hijyen sağlıyoruz."
+    },
+    {
+      "icon": "fa fa-briefcase",
+      "name": "Ofis Koltuğu Temizliği",
+      "text": "Ofis koltuklarınızın profesyonel görünümünü koruyoruz. Leke, toz ve kötü kokuya son!"
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "Araç Koltuğu Yıkama",
+      "text": "Araç içi koltuk ve döşemeleri özenle temizleyerek uzun ömürlü bir ferahlık sağlıyoruz."
+    },
+    {
+      "icon": "fa fa-home",
+      "name": "Yerinde Koltuk Yıkama",
+      "text": "Koltuklarınızı yerinden taşımadan, evinizde profesyonel ekipmanla temizlik hizmeti sunuyoruz."
+    },
+    {
+      "icon": "fa fa-square",
+      "name": "Halı Yıkama",
+      "text": "Halılarınızı derinlemesine temizliyor, hijyenik ve mis gibi ferah bir yaşam alanı sağlıyoruz."
+    },
+    {
+      "icon": "fa fa-leaf",
+      "name": "Doğa Dostu Ürünler",
+      "text": "Sağlığınıza zarar vermeyen, çevre dostu temizlik ürünleriyle güvenli hizmet sağlıyoruz."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Koltuklarım tertemiz oldu, hem de evden çıkmadan! Gerçekten profesyonel bir ekip.\"",
+      "name": "Ayşe K."
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Leke çıkmaz sanıyordum ama mucize gibi oldu. Tavsiye ederim!\"",
+      "name": "Murat D."
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Hem hızlı hem de güler yüzlü hizmet. Koltuklar mis gibi kokuyor!\"",
+      "name": "Zeynep T."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Ahmet Yılmaz",
+      "job": "Ekip Lideri"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Gamze Karakurt",
+      "job": "Müşteri İlişkileri"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Mehmet Kaya",
+      "job": "Teknik Uzman"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Fatma Demir",
+      "job": "Temizlik Uzmanı"
+    }
+  ],
+  "Contact": {
+    "address": "İstanbul, Türkiye",
+    "phone": "+90 543 854 3357",
+    "email": "hkmtkara3457@gmail.com",
+    "facebook": "https://www.facebook.com/share/1BJo1azgMP/",
+    "instagram": "https://www.instagram.com/yikamahizmetleri?igsh=ZnZpeDJ4bTVoaXBt"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-check",
+      "title": "Profesyonel Hizmet",
+      "text": "Alanında uzman ekibimizle yüksek kaliteli koltuk yıkama hizmeti sunuyoruz."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "title": "Hızlı ve Zamanında",
+      "text": "Randevunuza uygun şekilde geliyoruz, işlemi kısa sürede tamamlıyoruz."
+    },
+    {
+      "icon": "fa fa-smile-o",
+      "title": "Müşteri Memnuniyeti",
+      "text": "Yüzlerce mutlu müşterimizle güvenilir hizmet vermeye devam ediyoruz."
+    },
+    {
+      "icon": "fa fa-leaf",
+      "title": "Doğa Dostu Temizlik",
+      "text": "Sağlığınız ve çevre için zararsız, bitkisel içerikli ürünler kullanıyoruz."
+    }
+  ]
+}
