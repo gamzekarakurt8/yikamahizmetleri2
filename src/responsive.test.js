@@ -13,6 +13,7 @@ const headerComponent = fs.readFileSync(
   path.join(__dirname, "components", "header.jsx"),
   "utf8"
 );
+const appCss = fs.readFileSync(path.join(__dirname, "App.css"), "utf8");
 
 const blockFor = (selector) => {
   const start = css.indexOf(`${selector} {`);
@@ -120,5 +121,13 @@ describe("responsive stylesheet", () => {
     expect(css).toContain("min-height: 100%");
     expect(css).toContain("#services .service-desc p");
     expect(css).toContain("overflow-wrap: anywhere");
+  });
+
+  test("prevents horizontal overflow on current iPhone viewport widths", () => {
+    expect(appCss).toContain("@media screen and (max-width: 430px)");
+    expect(appCss).toContain("width: 100%");
+    expect(appCss).toContain("max-width: 100%");
+    expect(appCss).not.toContain("width: 110%");
+    expect(appCss).not.toContain("width: 111%");
   });
 });
