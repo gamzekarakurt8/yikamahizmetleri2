@@ -1,18 +1,11 @@
+<!DOCTYPE html>
+<html lang="tr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-  <link
-    rel="apple-touch-icon"
-    sizes="72x72"
-    href="img/apple-touch-icon-72x72.png"
-  />
-  <link
-    rel="apple-touch-icon"
-    sizes="114x114"
-    href="img/apple-touch-icon-114x114.png"
-  />
+  <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <link
@@ -21,24 +14,13 @@
     href="fonts/font-awesome/css/font-awesome.css"
   />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    rel="stylesheet"
-    type="text/css"
-    href="css/nivo-lightbox/nivo-lightbox.css"
-  />
-  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
     rel="stylesheet"
   />
-  <link
-    href="https://fonts.googleapis.com/css?family=Lato:400,700"
-    rel="stylesheet"
-  />
-  <link
-    href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900"
-    rel="stylesheet"
-  />
+  <link rel="preload" as="image" href="/img/portfolio/koltuk-takimi-yikama.jpg" />
   <title>Halı ve Koltuk Yıkama | Tuzla, Gebze, Pendik, Kartal</title>
   <meta
     name="description"
@@ -49,7 +31,7 @@
     content="halı yıkama, koltuk yıkama, koltuk temizleme, yerinde koltuk yıkama, buharlı koltuk yıkama, profesyonel koltuk yıkama, evde koltuk yıkama, ofis koltuğu temizliği, araç koltuğu yıkama, araç döşeme temizliği, yatak yıkama, yatak temizliği, sandalye yıkama, sandalye temizliği, stor perde yıkama, leke çıkarma, koku giderme, hijyenik temizlik, derinlemesine temizlik, Tuzla halı yıkama, Tuzla koltuk yıkama, Tuzla koltuk temizleme, Gebze halı yıkama, Gebze koltuk yıkama, Gebze koltuk temizleme, Pendik halı yıkama, Pendik koltuk yıkama, Pendik koltuk temizleme, Kartal halı yıkama, Kartal koltuk yıkama, Kartal koltuk temizleme, Maltepe halı yıkama, Maltepe koltuk yıkama, Maltepe koltuk temizleme, Bostancı halı yıkama, Bostancı koltuk yıkama, Bostancı koltuk temizleme, Kadıköy halı yıkama, Kadıköy koltuk yıkama, Kadıköy koltuk temizleme, Ümraniye halı yıkama, Ümraniye koltuk yıkama, Ümraniye koltuk temizleme"
   />
   <meta name="author" content="Yıkama Hizmetleri" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#6372ff" />
   <link rel="canonical" href="https://yikamahizmetleri.com/" />
 
@@ -65,9 +47,9 @@
     property="og:description"
     content="Tuzla, Gebze, Pendik, Kartal, Maltepe, Bostancı, Kadıköy ve Ümraniye'de profesyonel halı ve koltuk yıkama hizmeti."
   />
-  <meta property="og:image" content="https://yikamahizmetleri.com/img/logo.png" />
+  <meta property="og:image" content="https://yikamahizmetleri.com/img/logo-512.png" />
 
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta
     name="twitter:title"
     content="Halı ve Koltuk Yıkama | Tuzla, Gebze, Pendik, Kartal"
@@ -76,7 +58,7 @@
     name="twitter:description"
     content="Tuzla, Gebze, Pendik, Kartal, Maltepe, Bostancı, Kadıköy ve Ümraniye'de profesyonel halı ve koltuk yıkama hizmeti."
   />
-  <meta name="twitter:image" content="https://yikamahizmetleri.com/img/logo.png" />
+  <meta name="twitter:image" content="https://yikamahizmetleri.com/img/logo-512.png" />
 
   <script type="application/ld+json">
     {
@@ -85,10 +67,25 @@
       "@id": "https://yikamahizmetleri.com/#business",
       "name": "Yıkama Hizmetleri",
       "url": "https://yikamahizmetleri.com/",
-      "image": "https://yikamahizmetleri.com/img/logo.png",
+      "image": "https://yikamahizmetleri.com/img/logo-512.png",
+      "logo": "https://yikamahizmetleri.com/img/logo-512.png",
       "description": "Tuzla, Gebze, Pendik, Kartal, Maltepe, Bostancı, Kadıköy ve Ümraniye bölgelerinde profesyonel halı yıkama, koltuk yıkama, ofis koltuğu temizliği ve araç koltuğu yıkama hizmeti.",
       "telephone": "+90 543 854 3357",
       "email": "hkmtkara3457@gmail.com",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "İstanbul",
@@ -129,15 +126,100 @@
             "@type": "Service",
             "name": "Araç Koltuğu Yıkama"
           }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Ofis Koltuğu Temizliği"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Yatak Temizliği"
+          }
         }
       ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://yikamahizmetleri.com/#website",
+      "name": "Yıkama Hizmetleri",
+      "alternateName": "yikamahizmetleri.com",
+      "url": "https://yikamahizmetleri.com/",
+      "inLanguage": "tr-TR"
     }
   </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <div id="root"></div>
+  <!--
+    Arama motorları için statik içerik. React yüklendiğinde bu içerik
+    src/data/data.json'dan oluşturulan sayfa ile değiştirilir.
+  -->
+  <div id="root">
+    <header id="header">
+      <div class="intro">
+        <div class="container intro-grid">
+          <div class="intro-text">
+            <h1>Tuzla Halı ve Koltuk Yıkama Hizmetleri</h1>
+            <p>
+              Tuzla, Pendik, Kartal ve çevresinde yerinde koltuk yıkama.
+              Koltuklarınızı ilk günkü temizliğine ve ferahlığına
+              kavuşturuyoruz. Profesyonel ekipmanlarımızla hijyenik, hızlı ve
+              garantili koltuk yıkama hizmeti sunuyoruz.
+            </p>
+            <div class="intro-actions">
+              <a class="btn btn-custom btn-lg" href="tel:+905438543357">Hemen Ara</a>
+              <a class="btn btn-whatsapp btn-lg" href="https://wa.me/905438543357">WhatsApp</a>
+            </div>
+          </div>
+          <div class="intro-media">
+            <img src="/img/portfolio/koltuk-takimi-yikama.jpg" alt="Yerinde koltuk takımı yıkama" width="1200" height="900" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="services">
+        <div class="container">
+          <div class="section-title"><h2>Hizmetlerimiz</h2></div>
+          <h3><a href="/koltuk-yikama/">Ev Koltuğu Yıkama</a></h3>
+          <p>Ev koltuklarınızı kumaşına uygun özel solüsyonlarla temizliyor, derinlemesine hijyen sağlıyoruz.</p>
+          <h3><a href="/ofis-koltugu-temizligi/">Ofis Koltuğu Temizliği</a></h3>
+          <p>Ofis koltuklarınızın profesyonel görünümünü koruyoruz. Leke, toz ve kötü kokuya son!</p>
+          <h3><a href="/arac-koltugu-yikama/">Araç Koltuğu Yıkama</a></h3>
+          <p>Araç içi koltuk ve döşemeleri özenle temizleyerek uzun ömürlü bir ferahlık sağlıyoruz.</p>
+          <h3><a href="/koltuk-yikama/">Yerinde Koltuk Yıkama</a></h3>
+          <p>Koltuklarınızı yerinden taşımadan, evinizde profesyonel ekipmanla temizlik hizmeti sunuyoruz.</p>
+          <h3><a href="/hali-yikama/">Halı Yıkama</a></h3>
+          <p>Ayrıca <a href="/yatak-temizligi/">yatak temizliği</a> hizmeti veriyoruz.</p>
+          <p>Halılarınızı derinlemesine temizliyor, hijyenik ve mis gibi ferah bir yaşam alanı sağlıyoruz.</p>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Hizmet Bölgelerimiz</h2>
+          <p>
+            Tuzla, Gebze, Pendik, Kartal, Maltepe, Bostancı, Kadıköy ve Ümraniye
+            bölgelerinde halı yıkama, koltuk yıkama, ofis koltuğu temizliği ve
+            araç koltuğu yıkama hizmeti veriyoruz.
+          </p>
+          <p>
+            Telefon: <a href="tel:+905438543357">+90 543 854 3357</a> ·
+            E-posta: <a href="mailto:hkmtkara3457@gmail.com">hkmtkara3457@gmail.com</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
 </body>
+</html>

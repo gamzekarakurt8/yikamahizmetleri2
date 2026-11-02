@@ -2,26 +2,26 @@ import React from "react";
 
 export const Services = (props) => {
   return (
-    <div id="services" className="text-center">
+    <div id="services">
       <div className="container">
         <div className="section-title">
-          <h2>Hizmetlerimiz</h2>
-          
+          <span className="eyebrow">Hizmetlerimiz</span>
+          <h2>Her kumaşa uygun profesyonel temizlik</h2>
         </div>
-        <div className="row">
+        <div className="service-grid">
           {props.data
             ? props.data.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-xs-12 col-sm-6 col-md-4 service-card"
-                >
-                  <div className="service-card-inner">
-                    <i className={d.icon}></i>
-                    <div className="service-desc">
-                      <h3>{d.name}</h3>
-                      <p>{d.text}</p>
-                    </div>
-                  </div>
+                <div key={`${d.name}-${i}`} className="service-card">
+                  <i className={d.icon}></i>
+                  <h3>
+                    {d.link ? <a href={d.link}>{d.name}</a> : d.name}
+                  </h3>
+                  <p>{d.text}</p>
+                  {d.link && (
+                    <a className="service-more" href={d.link}>
+                      Detaylı bilgi <i className="fa fa-arrow-right"></i>
+                    </a>
+                  )}
                 </div>
               ))
             : "loading"}

@@ -55,3 +55,43 @@ describe("local SEO", () => {
     });
   });
 });
+
+describe("crawlable content", () => {
+  test("ships readable content and icons without JavaScript", () => {
+    const indexHtml = readProjectFile("public", "index.html");
+
+    expect(indexHtml).not.toContain('<div id="root"></div>');
+    expect(indexHtml).toContain("<h1>Tuzla Halı ve Koltuk Yıkama Hizmetleri</h1>");
+    expect(indexHtml).toContain('href="/img/favicon-48.png"');
+    expect(indexHtml).toContain('"@type": "WebSite"');
+    expect(
+      fs.existsSync(path.join(__dirname, "..", "public", "img", "favicon-48.png"))
+    ).toBe(true);
+    expect(
+      fs.existsSync(path.join(__dirname, "..", "public", "404.html"))
+    ).toBe(true);
+  });
+});
+
+describe("service landing pages", () => {
+  const slugs = [
+    "koltuk-yikama",
+    "hali-yikama",
+    "arac-koltugu-yikama",
+    "yatak-temizligi",
+    "ofis-koltugu-temizligi",
+  ];
+
+  test.each(slugs)("%s has its own page, canonical and sitemap entry", (slug) => {
+    const page = readProjectFile("public", slug, "index.html");
+    const sitemap = readProjectFile("public", "sitemap.xml");
+    const indexHtml = readProjectFile("public", "index.html");
+
+    expect(page).toContain(
+      `<link rel="canonical" href="https://yikamahizmetleri.com/${slug}/" />`
+    );
+    expect(page).toContain("<h1>");
+    expect(sitemap).toContain(`<loc>https://yikamahizmetleri.com/${slug}/</loc>`);
+    expect(indexHtml).toContain(`href="/${slug}/"`);
+  });
+});

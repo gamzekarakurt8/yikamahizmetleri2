@@ -18,7 +18,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Profosyonel Yıkama
+            <img src="img/favicon-48.png" alt="" width="32" height="32" />
+            Profesyonel Yıkama
           </a>{" "}
         </div>
 
@@ -47,12 +48,14 @@ export const Navigation = (props) => {
                 Galeri
               </a>
             </li>
+            {props.showTestimonials && (
+              <li>
+                <a href="#testimonials" className="page-scroll">
+                  Yorumlar
+                </a>
+              </li>
+            )}
         {/*    <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
               <a href="#team" className="page-scroll">
                 Team
               </a>
@@ -60,6 +63,11 @@ export const Navigation = (props) => {
             <li>
               <a href="#contact" className="page-scroll">
                 İletişim
+              </a>
+            </li>
+            <li className="nav-cta">
+              <a href="tel:+905438543357">
+                <i className="fa fa-phone"></i> Hemen Ara
               </a>
             </li>
           </ul>

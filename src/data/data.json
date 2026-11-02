@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": " Halı ve Koltuk Yıkama Hizmetleri",
-    "paragraph": "Koltuklarınızı ilk günkü temizliğine ve ferahlığına kavuşturuyoruz. Profesyonel ekipmanlarımızla hijyenik, hızlı ve garantili koltuk yıkama hizmeti sunuyoruz."
+    "title": "Tuzla Halı ve Koltuk Yıkama Hizmetleri",
+    "paragraph": "Tuzla, Pendik, Kartal ve çevresinde yerinde koltuk yıkama. Koltuklarınızı ilk günkü temizliğine ve ferahlığına kavuşturuyoruz. Profesyonel ekipmanlarımızla hijyenik, hızlı ve garantili koltuk yıkama hizmeti sunuyoruz."
   },
   "About": {
     "paragraph": "Koltuk yıkama hizmetimiz ile evinizde veya ofisinizdeki koltukları derinlemesine temizliyoruz. Uzman ekibimiz, güçlü buhar ve vakum sistemleriyle kumaşın derinliklerine işleyen kir ve lekeleri yok eder. Amacımız yalnızca koltuklarınızı temizlemek değil, yaşam alanlarınıza ferahlık kazandırmaktır.",
@@ -21,43 +21,50 @@
   "Gallery": [
     {
       "title": "Koltuk Yıkama",
-      "smallImage": "img/portfolio/large.jfif"
+      "smallImage": "img/portfolio/koltuk-yikama.jpg"
     },
     {
       "title": "Yatak Temizliği",
-      "smallImage": "img/portfolio/yatak.jfif"
+      "smallImage": "img/portfolio/yatak-temizligi.jpg"
     },
-
     {
       "title": "Araç Koltuğu Yıkama",
-      "smallImage": "img/portfolio/arackoltuk.jfif"
+      "smallImage": "img/portfolio/arac-koltugu-yikama.jpg"
+    },
+    {
+      "title": "Koltuk Takımı Yıkama",
+      "smallImage": "img/portfolio/koltuk-takimi-yikama.jpg"
     }
-  
   ],
   "Services": [
     {
       "icon": "fa fa-home",
       "name": "Ev Koltuğu Yıkama",
+      "link": "/koltuk-yikama/",
       "text": "Ev koltuklarınızı kumaşına uygun özel solüsyonlarla temizliyor, derinlemesine hijyen sağlıyoruz."
     },
     {
       "icon": "fa fa-briefcase",
       "name": "Ofis Koltuğu Temizliği",
+      "link": "/ofis-koltugu-temizligi/",
       "text": "Ofis koltuklarınızın profesyonel görünümünü koruyoruz. Leke, toz ve kötü kokuya son!"
     },
     {
       "icon": "fa fa-car",
       "name": "Araç Koltuğu Yıkama",
+      "link": "/arac-koltugu-yikama/",
       "text": "Araç içi koltuk ve döşemeleri özenle temizleyerek uzun ömürlü bir ferahlık sağlıyoruz."
     },
     {
       "icon": "fa fa-home",
       "name": "Yerinde Koltuk Yıkama",
+      "link": "/koltuk-yikama/",
       "text": "Koltuklarınızı yerinden taşımadan, evinizde profesyonel ekipmanla temizlik hizmeti sunuyoruz."
     },
     {
       "icon": "fa fa-square",
       "name": "Halı Yıkama",
+      "link": "/hali-yikama/",
       "text": "Halılarınızı derinlemesine temizliyor, hijyenik ve mis gibi ferah bir yaşam alanı sağlıyoruz."
     },
     {
@@ -68,19 +75,16 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Koltuklarım tertemiz oldu, hem de evden çıkmadan! Gerçekten profesyonel bir ekip.\"",
-      "name": "Ayşe K."
+      "username": "@mervee.noirr",
+      "text": "Bu işin en iyisisiniz"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Leke çıkmaz sanıyordum ama mucize gibi oldu. Tavsiye ederim!\"",
-      "name": "Murat D."
+      "username": "@betulle1blogg",
+      "text": "Koltuklar hiç ıslak kalmadı çok güzel temizlediler 👏"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Hem hızlı hem de güler yüzlü hizmet. Koltuklar mis gibi kokuyor!\"",
-      "name": "Zeynep T."
+      "username": "@jamie.barnessss",
+      "text": "Tertemiz oldu hiç leke kalmamış"
     }
   ],
   "Team": [
